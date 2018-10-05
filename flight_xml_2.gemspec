@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "flight_xml_2"
   spec.version       = FlightXml2::VERSION
   spec.authors       = ["Larry Fransson"]
-  spec.email         = ["larry@fransson.us"]
+  spec.email         = ["l@u235.us"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Provides access to FlightAware's FlightXML2 API}
+  # spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.homepage      = "https://github.com/LarryFransson/flight_xml_2"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -35,4 +35,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "cucumber"
+  spec.add_development_dependency "aruba"
+
+  # Gem dependencies
+  spec.add_dependency "rest-client", "~> 2.0.0"
 end

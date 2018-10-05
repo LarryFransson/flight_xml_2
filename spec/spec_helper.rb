@@ -1,5 +1,7 @@
 require "bundler/setup"
 require "flight_xml_2"
+require "flight_xml_2/fxml"
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
