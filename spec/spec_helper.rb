@@ -1,6 +1,6 @@
 require "bundler/setup"
 require "flight_xml_2"
-require "flight_xml_2/fxml"
+# require "flight_xml_2/fxml"
 
 
 RSpec.configure do |config|

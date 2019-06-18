@@ -1,13 +1,14 @@
+# frozen_string_literal: true
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "flight_xml_2/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "flight_xml_2"
+  spec.name          = 'flight_xml_2'
   spec.version       = FlightXml2::VERSION
-  spec.authors       = ["Larry Fransson"]
-  spec.email         = ["l@u235.us"]
+  spec.authors       = ['Larry Fransson']
+  spec.email         = ['l@u235.us']
 
   spec.summary       = %q{Provides access to FlightAware's FlightXML2 API}
   # spec.description   = %q{TODO: Write a longer description or delete this line.}
