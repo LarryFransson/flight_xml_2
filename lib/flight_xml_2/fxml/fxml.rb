@@ -1,6 +1,7 @@
 require "singleton"
 
 module FlightXml2
+	
 	class FXML
 		include Singleton
 
