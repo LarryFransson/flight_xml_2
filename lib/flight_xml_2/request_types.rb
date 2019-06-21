@@ -14,7 +14,7 @@ module FlightXml2
 				},
 				:optional => {
 					:airline => String,
-					:flightNumber => String
+					:flightno => String
 				}
 			},
 			:defaults => {
